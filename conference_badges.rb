@@ -20,7 +20,7 @@ def assign_rooms(array)
     "Hello, #{name}! You'll be assigned to room #{counter}!")
     counter += 1
   end
-  return nuarray
+  
 end
 def printer(array)
   batch_badge_creator(array).each do |id|
