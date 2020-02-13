@@ -16,10 +16,8 @@ end
 
 
 def assign_rooms(array)
-  nuarray = []
-  counter = 1
-  array.map do |name, counter|
-    nuarray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+  array.map do |name, counter = 1|
+    "Hello, #{name}! You'll be assigned to room #{counter}!")
     counter += 1
   end
   return nuarray
